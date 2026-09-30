@@ -1,0 +1,405 @@
+{
+  "scope": "Synthetic ellipsoids only; no diagnostic validation",
+  "seed": 17,
+  "checkpoint_sha256": "e9339f86231f5f2d594123daa21b5a9600d9ce4e459552d26e4491a8f1643f9e",
+  "environment": {
+    "os": "Windows",
+    "python": "3.11.9",
+    "torch": "2.6.0+cpu",
+    "monai": "1.4.0",
+    "numpy": "1.26.4",
+    "cpu_threads": 2
+  },
+  "selected_epoch": 30,
+  "splits": {
+    "train": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+    ],
+    "validation": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211
+    ],
+    "test": [
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315
+    ]
+  },
+  "epochs": 30,
+  "threshold": 0.5,
+  "parameters": 1969,
+  "training_and_evaluation_seconds": 192.48622020002222,
+  "cnn_mean_dice": 0.8850035600342239,
+  "cnn_positive_mean_dice": 0.8466714133789651,
+  "baseline_mean_dice": 0.9972765849022547,
+  "negative_false_positive_cases": 0,
+  "inference_median_ms": 94.00864999042824,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.42032657066981,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 2,
+      "loss": 1.171414573987325,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 3,
+      "loss": 1.0941294431686401,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 4,
+      "loss": 1.0654020309448242,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 5,
+      "loss": 1.0467546184857686,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 6,
+      "loss": 1.0371221701304119,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 7,
+      "loss": 1.036008636156718,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 8,
+      "loss": 1.03528227408727,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 9,
+      "loss": 1.0339575012524922,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 10,
+      "loss": 1.0318557818730671,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 11,
+      "loss": 1.029714008172353,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 12,
+      "loss": 1.027510126431783,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 13,
+      "loss": 1.0238239169120789,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 14,
+      "loss": 1.0178592403729756,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 15,
+      "loss": 1.00709201892217,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 16,
+      "loss": 0.9880584478378296,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 17,
+      "loss": 0.9577770431836446,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 18,
+      "loss": 0.9167969326178232,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 19,
+      "loss": 0.8764949838320414,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 20,
+      "loss": 0.8265470862388611,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 21,
+      "loss": 0.7808992465337118,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 22,
+      "loss": 0.735980381568273,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 23,
+      "loss": 0.6967642307281494,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 24,
+      "loss": 0.6620438694953918,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 25,
+      "loss": 0.6311205426851908,
+      "validation_dice": 0.25
+    },
+    {
+      "epoch": 26,
+      "loss": 0.6044714550177256,
+      "validation_dice": 0.7518103658395283
+    },
+    {
+      "epoch": 27,
+      "loss": 0.5815999905268351,
+      "validation_dice": 0.8000621601942254
+    },
+    {
+      "epoch": 28,
+      "loss": 0.5614812970161438,
+      "validation_dice": 0.8375569251191387
+    },
+    {
+      "epoch": 29,
+      "loss": 0.5426612893740336,
+      "validation_dice": 0.9048500092860575
+    },
+    {
+      "epoch": 30,
+      "loss": 0.5250844856103262,
+      "validation_dice": 0.9196099080289347
+    }
+  ],
+  "test_cases": [
+    {
+      "seed": 300,
+      "positive": false,
+      "cnn_dice": 1.0,
+      "baseline_dice": 1.0,
+      "cnn_voxels": 0,
+      "truth_voxels": 0,
+      "inference_ms": 355.09309999179095
+    },
+    {
+      "seed": 301,
+      "positive": true,
+      "cnn_dice": 0.7323943661971831,
+      "baseline_dice": 1.0,
+      "cnn_voxels": 26,
+      "truth_voxels": 45,
+      "inference_ms": 233.81399997742847
+    },
+    {
+      "seed": 302,
+      "positive": true,
+      "cnn_dice": 0.927038626609442,
+      "baseline_dice": 1.0,
+      "cnn_voxels": 108,
+      "truth_voxels": 125,
+      "inference_ms": 202.25940004456788
+    },
+    {
+      "seed": 303,
+      "positive": true,
+      "cnn_dice": 0.9065420560747663,
+      "baseline_dice": 0.9957081545064378,
+      "cnn_voxels": 97,
+      "truth_voxels": 117,
+      "inference_ms": 69.43889998365194
+    },
+    {
+      "seed": 304,
+      "positive": false,
+      "cnn_dice": 1.0,
+      "baseline_dice": 1.0,
+      "cnn_voxels": 0,
+      "truth_voxels": 0,
+      "inference_ms": 52.95230000047013
+    },
+    {
+      "seed": 305,
+      "positive": true,
+      "cnn_dice": 0.7560975609756098,
+      "baseline_dice": 0.9900990099009901,
+      "cnn_voxels": 31,
+      "truth_voxels": 51,
+      "inference_ms": 68.61570000182837
+    },
+    {
+      "seed": 306,
+      "positive": true,
+      "cnn_dice": 0.9224806201550387,
+      "baseline_dice": 0.9963898916967509,
+      "cnn_voxels": 119,
+      "truth_voxels": 139,
+      "inference_ms": 98.76780002377927
+    },
+    {
+      "seed": 307,
+      "positive": true,
+      "cnn_dice": 0.6153846153846154,
+      "baseline_dice": 1.0,
+      "cnn_voxels": 20,
+      "truth_voxels": 45,
+      "inference_ms": 291.5054999757558
+    },
+    {
+      "seed": 308,
+      "positive": false,
+      "cnn_dice": 1.0,
+      "baseline_dice": 1.0,
+      "cnn_voxels": 0,
+      "truth_voxels": 0,
+      "inference_ms": 305.4355999920517
+    },
+    {
+      "seed": 309,
+      "positive": true,
+      "cnn_dice": 0.9103448275862069,
+      "baseline_dice": 0.9936305732484076,
+      "cnn_voxels": 66,
+      "truth_voxels": 79,
+      "inference_ms": 122.56370001705363
+    },
+    {
+      "seed": 310,
+      "positive": true,
+      "cnn_dice": 0.9288135593220339,
+      "baseline_dice": 0.9936305732484076,
+      "cnn_voxels": 137,
+      "truth_voxels": 158,
+      "inference_ms": 92.29020000202581
+    },
+    {
+      "seed": 311,
+      "positive": true,
+      "cnn_dice": 0.8615384615384616,
+      "baseline_dice": 1.0,
+      "cnn_voxels": 28,
+      "truth_voxels": 37,
+      "inference_ms": 57.25209997035563
+    },
+    {
+      "seed": 312,
+      "positive": false,
+      "cnn_dice": 1.0,
+      "baseline_dice": 1.0,
+      "cnn_voxels": 0,
+      "truth_voxels": 0,
+      "inference_ms": 95.72709997883067
+    },
+    {
+      "seed": 313,
+      "positive": true,
+      "cnn_dice": 0.8051948051948052,
+      "baseline_dice": 1.0,
+      "cnn_voxels": 31,
+      "truth_voxels": 46,
+      "inference_ms": 46.62609996739775
+    },
+    {
+      "seed": 314,
+      "positive": true,
+      "cnn_dice": 0.9008264462809917,
+      "baseline_dice": 0.9962264150943396,
+      "cnn_voxels": 109,
+      "truth_voxels": 133,
+      "inference_ms": 48.00870001781732
+    },
+    {
+      "seed": 315,
+      "positive": true,
+      "cnn_dice": 0.8934010152284264,
+      "baseline_dice": 0.9907407407407407,
+      "cnn_voxels": 88,
+      "truth_voxels": 109,
+      "inference_ms": 42.1026999829337
+    }
+  ]
+}
